@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
 import { styles } from "../styles";
-import { ComputerCanvas } from "./canvas";
+import { ComputersCanvas } from "./canvas";
 const Hero = () => {
   return (
     <section className='relative w-full h-screen mx-auto'>
@@ -20,9 +20,8 @@ const Hero = () => {
             bla
           </p>
         </div>
-       
       </div>
-      <ComputerCanvas />
+      <ComputersCanvas />
     </section>
   );
 };

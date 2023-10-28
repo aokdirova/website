@@ -21,10 +21,10 @@ const Navbar = () => {
       className={`${styles.paddingX} bg-primary w-full flex items-center fixed py-5 top-0 z-20`}>
       <div className='w-full flex justify-between items-center max-w-7xl mx-auto'>
         <Link to='/' className='flex items-center gap-2' onClick={onLogoClick}>
-          <img src={logo} alt='logo' className='w-9 h-9 object-contain' />
-          <p className='text-white text-[18px] font-bold cursor-pointer'>
+          <img src={logo} alt='logo' className='w-10 h-10 object-contain' />
+          {/* <p className='text-white text-[18px] font-bold cursor-pointer'>
             Aygul
-          </p>
+          </p> */}
         </Link>
         <ul className='list-none hidden sm:flex flex-row gap-10 '>
           {navLinks.map(({ id, title }) => {
