@@ -21,6 +21,9 @@ import jest from "./tech/jest.png";
 import zod from "./tech/zod.png";
 import kubernetes from "./tech/kubernetes.png";
 
+import check24 from "./company/check24.png";
+import betterlink from "./company/betterlink.png";
+
 export {
   logo,
   backend,
@@ -43,4 +46,6 @@ export {
   jest,
   zod,
   kubernetes,
+  check24,
+  betterlink,
 };
