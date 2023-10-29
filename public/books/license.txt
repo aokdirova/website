@@ -1,0 +1,11 @@
+Model Information:
+* title:	Wizardry: Still Life
+* source:	https://sketchfab.com/3d-models/wizardry-still-life-e56a970b88dd487a9325ebdeeeec5b53
+* author:	M.Reslan (https://sketchfab.com/mreslan)
+
+Model License:
+* license type:	CC-BY-NC-SA-4.0 (http://creativecommons.org/licenses/by-nc-sa/4.0/)
+* requirements:	Author must be credited. No commercial use. Modified versions must have the same license.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Wizardry: Still Life" (https://sketchfab.com/3d-models/wizardry-still-life-e56a970b88dd487a9325ebdeeeec5b53) by M.Reslan (https://sketchfab.com/mreslan) licensed under CC-BY-NC-SA-4.0 (http://creativecommons.org/licenses/by-nc-sa/4.0/)
