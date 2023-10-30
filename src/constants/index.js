@@ -127,7 +127,7 @@ const experiences = [
     icon: betterlink,
     iconBg: "#E6DEDD",
     date: "Oct 2020",
-    points: ["Job Offer accepted. Canceled"],
+    points: ["Job Offer accepted", "Cancelled because of funding issues"],
   },
   {
     title: "Independent Programming",
@@ -135,31 +135,25 @@ const experiences = [
     icon: jest,
     iconBg: "#383E56",
     date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
+    points: ["", ""],
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
-    description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+    name: "Online Shop",
+    description: "lorem ipsum dolorem",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "",
         color: "pink-text-gradient",
       },
     ],
@@ -167,20 +161,19 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+    name: "",
+    description: "",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "",
         color: "pink-text-gradient",
       },
     ],
@@ -188,16 +181,15 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    name: "",
+    description: "",
     tags: [
       {
-        name: "nextjs",
+        name: "",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "",
         color: "green-text-gradient",
       },
       {
@@ -211,22 +203,25 @@ const projects = [
 ];
 
 const artGallery = [
-  { image: aurora, alt: "aurora" },
+  { image: aurora, alt: "aurora borealis" },
   { image: ballerina, alt: "ballerina" },
-  { image: baum, alt: "baum" },
-  { image: boats, alt: "description" },
-  { image: brainleftandright, alt: "description" },
-  { image: couple, alt: "description" },
-  { image: cutie, alt: "description" },
-  { image: france, alt: "description" },
-  { image: lettertolovedone, alt: "description" },
-  { image: maki, alt: "description" },
-  { image: mountDoom, alt: "description" },
-  { image: muse, alt: "description" },
-  { image: nightcity, alt: "description" },
-  { image: tulips, alt: "description" },
-  { image: wal, alt: "description" },
-  { image: water, alt: "description" },
+  { image: baum, alt: "tree in the dark" },
+  { image: boats, alt: "boats in the night" },
+  {
+    image: brainleftandright,
+    alt: "image describing two parts of brain with a flower colored in black on one side and colored on another",
+  },
+  { image: couple, alt: "couple kissing under rain" },
+  { image: cutie, alt: "cute dog art" },
+  { image: france, alt: "france" },
+  { image: lettertolovedone, alt: "empty envelope" },
+  { image: maki, alt: "flowers" },
+  { image: mountDoom, alt: "mountain from Lord of the rings in my head" },
+  { image: muse, alt: "muse" },
+  { image: nightcity, alt: "city in the night. it is snowing" },
+  { image: tulips, alt: "tulips on canvas" },
+  { image: wal, alt: "a whale. maybe a docker whale?" },
+  { image: water, alt: "water being poured into the glass" },
 ];
 
 export { technologies, experiences, projects, artGallery };
