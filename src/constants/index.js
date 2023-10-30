@@ -115,10 +115,10 @@ const experiences = [
     iconBg: "#383E56",
     date: "Dec 2020 - present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Developing and maintaining web applications using React.js and React related tech on the Frontend, Node.js on the Backend",
+      ,
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
   {
@@ -157,7 +157,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jest,
+    image: brainleftandright,
     source_code_link: "https://github.com/",
   },
   {
@@ -177,7 +177,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jest,
+    image: wal,
     source_code_link: "https://github.com/",
   },
   {
@@ -197,7 +197,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: jest,
+    image: mountDoom,
     source_code_link: "https://github.com/",
   },
 ];
