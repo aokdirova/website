@@ -8,9 +8,15 @@ const GalleryImageCard = ({ image, alt, index }) => {
   return (
     <motion.div
       variants={fadeIn("", "spring", index * 0.5, 0.75)}
-      className='bg-black-200 rounded-3xl w-full xs:w-[320px] my-5'>
+      className='bg-black-200 rounded-3xl xs:w-[320px] my-5'>
       <div className='scroll-snap w-full xs:w-[320px]'>
-        <img src={image} alt={alt} className='w-full h-auto object-fill' />
+        <a onClick={() => window.open(image, "_blank")}>
+          <img
+            src={image}
+            alt={alt}
+            className='w-full rounded-3xl object-fill cursor-pointer'
+          />
+        </a>
       </div>
     </motion.div>
   );
@@ -28,7 +34,7 @@ const Gallery = () => {
         </motion.div>
       </div>
       <div
-        className={`flex gap-10 p-5 overflow-y-hidden overflow-x-scroll scroll-smooth h-[400px]`}>
+        className={`flex items-center gap-10 p-5 overflow-y-hidden overflow-x-scroll scroll-smooth h-[500px]`}>
         {artGallery.map((artGallery, index) => (
           <GalleryImageCard
             key={`${index}-gallery-image`}
