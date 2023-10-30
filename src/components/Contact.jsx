@@ -7,6 +7,8 @@ import { EarthCanvas } from "./canvas";
 import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 
+//TODO memoize handleChange so that it doesnt fire on every stroke
+
 const initialFormObj = {
   name: "",
   email: "",
@@ -18,8 +20,7 @@ const Contact = () => {
   const formRef = useRef();
 
   const handleChange = (e) => {
-    const { target } = e;
-    const { name, value } = target;
+    const { name, value } = e.target;
 
     setForm({
       ...form,
@@ -27,7 +28,35 @@ const Contact = () => {
     });
   };
 
-  const handleSubmit = (e) => {};
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    setLoading(true);
+
+    emailjs
+      .send(
+        import.meta.env.VITE_EMAILJS_SERVICE_ID,
+        import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
+        {
+          from_name: form.name,
+          to_name: "Aygul",
+          from_email: form.email,
+          to_email: "aokdirova@gmail.com",
+          message: form.mesage,
+        },
+        import.meta.env.VITE_EMAILJS_PUBLIC_KEY
+      )
+      .then(
+        () => {
+          setLoading(false),
+            alert("Thank you! I will get back to you asap"),
+            setForm(initialFormObj);
+        },
+        (error) => {
+          console.log(error);
+          alert("Something went wrong. Check the log in devtools for details");
+        }
+      );
+  };
 
   //TODO make a form label separate Component with props inputtype and name beacuse labels are duplicated
 
