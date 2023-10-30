@@ -31,6 +31,11 @@ import {
   tulips,
   wal,
   water,
+  logo,
+  shop,
+  robot,
+  website,
+  natours,
 } from "../assets";
 
 export const navLinks = [
@@ -132,64 +137,78 @@ const experiences = [
   {
     title: "Independent Programming",
     company_name: "Independent",
-    icon: jest,
+    icon: logo,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: ["", ""],
+    date: "Dec 2019 - present",
+    points: [
+      "solving katas",
+      "learning new technologies through building apps",
+      "extending my knowledge with the help of different platforms like Udemy",
+      "learning about clean code and architecture with the help of Uncle Bob",
+    ],
   },
 ];
 
 const projects = [
   {
-    name: "Online Shop",
-    description: "lorem ipsum dolorem",
+    name: "My Website",
+    description:
+      "This is the website you are on right now. I built it recently, primarily for fun and to learn new technologies. This is a React project which was created with Vite. Additionally, I used Three.js for showing 3D models, Tailwind CSS for styling and Framer Motion for animations. I still need to optimize some things for this website: loading time of 3D models, memoizing callbacks and making some components reusable. It would also be interesting to rewrite this project using TypeScript",
     tags: [
       {
-        name: "react",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "",
+        name: "Three.js",
         color: "green-text-gradient",
       },
       {
-        name: "",
+        name: "Tailwind CSS",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Framer Motion",
         color: "pink-text-gradient",
       },
     ],
-    image: brainleftandright,
-    source_code_link: "https://github.com/",
+    image: website,
+    source_code_link: "https://github.com/aokdirova/website",
+    live_link: "https://aygul-okdirova.com",
   },
   {
-    name: "",
-    description: "",
+    name: "Clothing Shop",
+    description:
+      "This Project is still a work in progress. I started it with an intention to test myself and build my personal React project outside of work from scratch. Main goal was to write it first in JS and then convert it to TS. Additionally, I tried first to manage state with Context and then I rewrote the project to use Redux.",
     tags: [
       {
-        name: "react",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "",
+        name: "TS",
         color: "green-text-gradient",
       },
       {
-        name: "",
+        name: "styled-components",
         color: "pink-text-gradient",
       },
     ],
-    image: wal,
-    source_code_link: "https://github.com/",
+    image: shop,
+    source_code_link: "https://github.com/aokdirova/shopping-website-react",
+    live_link: "https://celebrated-marzipan-11aa8e.netlify.app",
   },
   {
-    name: "",
-    description: "",
+    name: "Joke Teller",
+    description:
+      "This is one of my very first personal projects. It's very simple Vanilla JS Project, which uses Joke Telling API and Text-to-Speech API. This project has a sentimental value. That is why it is here",
     tags: [
       {
-        name: "",
+        name: "JavaScript",
         color: "blue-text-gradient",
       },
       {
-        name: "",
+        name: "HTML",
         color: "green-text-gradient",
       },
       {
@@ -197,8 +216,27 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: mountDoom,
-    source_code_link: "https://github.com/",
+    image: robot,
+    source_code_link: "https://github.com/aokdirova/programming-joke-teller",
+    live_link: "https://programming-jokes-teller.netlify.app/",
+  },
+  {
+    name: "Landing page",
+    description:
+      "One more of my early projects. This is a landing page built only with HTML and CSS without help of any packages or frameworks. I put it here to remind myself how powerful HTML and CSS are, even on their own.",
+    tags: [
+      {
+        name: "HTML",
+        color: "green-text-gradient",
+      },
+      {
+        name: "SASS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: natours,
+    source_code_link: "https://github.com/aokdirova/landing-page-outdoors",
+    live_link: "https://elated-wiles-372388.netlify.app/",
   },
 ];
 
@@ -222,6 +260,7 @@ const artGallery = [
   { image: tulips, alt: "tulips on canvas" },
   { image: wal, alt: "a whale. maybe a docker whale?" },
   { image: water, alt: "water being poured into the glass" },
+  { image: dancer, alt: "dancing woman" },
 ];
 
 export { technologies, experiences, projects, artGallery };

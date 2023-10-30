@@ -12,6 +12,7 @@ const ProjectCard = ({
   tags,
   image,
   source_code_link,
+  live_link,
 }) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
@@ -22,7 +23,9 @@ const ProjectCard = ({
           speed: 450,
         }}
         className='bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full'>
-        <div className='relative w-full h-[230px]'>
+        <div
+          onClick={() => window.open(live_link, "_blank")}
+          className='relative w-full h-[230px] cursor-pointer'>
           <img
             src={image}
             alt='project_image'
@@ -69,12 +72,12 @@ const Works = () => {
         <motion.p
           variants={fadeIn("", "", 0.1, 1)}
           className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'>
-          The following projects serve as practical demonstrations of my
-          abilities and expertise. Each project is accompanied by concise
+          Here are some of my projects which serve as practical demonstrations
+          of my abilities and expertise. Each project is accompanied by concise
           descriptions, as well as links to access the code repositories and
           live demonstrations. They provide insight into my capacity to address
-          intricate challenges, collaborate with diverse technologies, and
-          manage projects effectively.
+          intricate challenges and collaborate with diverse technologies. <br />
+          More projects are on their way.
         </motion.p>
       </div>
       <div className='mt-20 flex flex-wrap gap-7'>

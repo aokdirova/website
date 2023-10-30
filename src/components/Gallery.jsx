@@ -6,9 +6,7 @@ import { textVariant, fadeIn } from "../utils/motion";
 
 const GalleryImageCard = ({ image, alt, index }) => {
   return (
-    <motion.div
-      variants={fadeIn("", "spring", index * 0.5, 0.75)}
-      className='bg-black-200 rounded-3xl xs:w-[320px] my-5'>
+    <div className='bg-black-200 rounded-3xl xs:w-[320px] my-5'>
       <div className='scroll-snap w-full xs:w-[320px]'>
         <a onClick={() => window.open(image, "_blank")}>
           <img
@@ -18,7 +16,7 @@ const GalleryImageCard = ({ image, alt, index }) => {
           />
         </a>
       </div>
-    </motion.div>
+    </div>
   );
 };
 
