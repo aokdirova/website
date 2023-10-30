@@ -26,6 +26,10 @@ export const navLinks = [
     title: "Work",
   },
   {
+    id: "gallery",
+    title: "Gallery",
+  },
+  {
     id: "contact",
     title: "Contact",
   },
@@ -189,4 +193,15 @@ const projects = [
   },
 ];
 
-export { technologies, experiences, projects };
+const artGallery = [
+  { image: jest, alt: "description" },
+  { image: jest, alt: "description" },
+  { image: jest, alt: "description" },
+  { image: jest, alt: "description" },
+  { image: jest, alt: "description" },
+  { image: jest, alt: "description" },
+  { image: jest, alt: "description" },
+  { image: jest, alt: "description" },
+];
+
+export { technologies, experiences, projects, artGallery };
