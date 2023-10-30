@@ -4,7 +4,7 @@ import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
 import CanvasLoader from "../Loader";
 
 const Books = ({ isMobile }) => {
-  const books = useGLTF("./books/scene.glb");
+  const books = useGLTF("./books/wizardry_still_life.glb");
   return (
     <mesh>
       <hemisphereLight intensity={0.9} groundColor='black' />
