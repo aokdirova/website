@@ -14,6 +14,23 @@ import {
   jest,
   check24,
   betterlink,
+  aurora,
+  ballerina,
+  baum,
+  boats,
+  brainleftandright,
+  couple,
+  cutie,
+  dancer,
+  france,
+  lettertolovedone,
+  maki,
+  mountDoom,
+  muse,
+  nightcity,
+  tulips,
+  wal,
+  water,
 } from "../assets";
 
 export const navLinks = [
@@ -194,14 +211,22 @@ const projects = [
 ];
 
 const artGallery = [
-  { image: jest, alt: "description" },
-  { image: jest, alt: "description" },
-  { image: jest, alt: "description" },
-  { image: jest, alt: "description" },
-  { image: jest, alt: "description" },
-  { image: jest, alt: "description" },
-  { image: jest, alt: "description" },
-  { image: jest, alt: "description" },
+  { image: aurora, alt: "aurora" },
+  { image: ballerina, alt: "ballerina" },
+  { image: baum, alt: "baum" },
+  { image: boats, alt: "description" },
+  { image: brainleftandright, alt: "description" },
+  { image: couple, alt: "description" },
+  { image: cutie, alt: "description" },
+  { image: france, alt: "description" },
+  { image: lettertolovedone, alt: "description" },
+  { image: maki, alt: "description" },
+  { image: mountDoom, alt: "description" },
+  { image: muse, alt: "description" },
+  { image: nightcity, alt: "description" },
+  { image: tulips, alt: "description" },
+  { image: wal, alt: "description" },
+  { image: water, alt: "description" },
 ];
 
 export { technologies, experiences, projects, artGallery };
