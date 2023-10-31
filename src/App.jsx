@@ -16,10 +16,11 @@ const App = () => {
   return (
     <BrowserRouter>
       <div className='relative z-0 bg-primary'>
-        <Navbar />
-        <div className='bg-inherit relative z-0'>
-          <Hero />
-          <StarsCanvas />
+        <div className='bg-hero-pattern bg-cover bg-no-repeat'>
+          <div className='bg-[#151414d4]'>
+            <Navbar />
+            <Hero />
+          </div>
         </div>
         <About />
         <Experience />

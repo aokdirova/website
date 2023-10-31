@@ -6,6 +6,7 @@ import robot from "./robot.png";
 import shop from "./shop.png";
 import website from "./website.png";
 import natours from "./natours.png";
+import mainIconsdark from "./mainIconsdark.svg";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -83,4 +84,5 @@ export {
   robot,
   website,
   natours,
+  mainIconsdark,
 };
