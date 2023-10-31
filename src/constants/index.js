@@ -37,6 +37,7 @@ import {
   website,
   natours,
   winter,
+  sql_website,
 } from "../assets";
 
 export const navLinks = [
@@ -152,6 +153,28 @@ const experiences = [
 
 const projects = [
   {
+    name: "AI SQL Query generator",
+    description:
+      "This is a small full-stack application, which uses the OpenAI API for translating human language to SQL Query. I built this small app to test out the Open API before using it for other bigger projects. Additionally, it was a nice practice for writing a small server",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Express",
+        color: "green-text-gradient",
+      },
+      {
+        name: "OPEN_AI",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: sql_website,
+    source_code_link: "https://github.com/aokdirova/sql-query-client",
+    live_link: "https://gleaming-mochi-76bffc.netlify.app/",
+  },
+  {
     name: "My Website",
     description:
       "This is the website you are on right now. I built it recently, primarily for fun and to learn new technologies. This is a React project which was created with Vite. Additionally, I used Three.js for showing 3D models, Tailwind CSS for styling and Framer Motion for animations. I still need to optimize some things for this website: loading time of 3D models, memoizing callbacks and making some components reusable. It would also be interesting to rewrite this project using TypeScript",
@@ -242,11 +265,11 @@ const projects = [
 ];
 
 const artGallery = [
-  { image: winter, alt: "picture displaying winter and houses in snow" },
   { image: ballerina, alt: "ballerina" },
   { image: water, alt: "water being poured into the glass" },
   { image: dancer, alt: "dancing woman" },
   { image: couple, alt: "couple kissing under rain" },
+  { image: winter, alt: "picture displaying winter and houses in snow" },
   { image: muse, alt: "muse" },
   { image: cutie, alt: "cute dog art" },
   { image: aurora, alt: "aurora borealis" },

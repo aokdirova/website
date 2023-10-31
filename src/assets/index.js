@@ -7,6 +7,7 @@ import shop from "./shop.png";
 import website from "./website.png";
 import natours from "./natours.png";
 import mainIconsdark from "./mainIconsdark.svg";
+import sql_website from "./sql_website.png";
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -87,4 +88,5 @@ export {
   natours,
   mainIconsdark,
   winter,
+  sql_website,
 };
