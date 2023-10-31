@@ -20,6 +20,8 @@ const Books = ({ isMobile }) => {
   );
 };
 
+useGLTF.preload("./books/wizardry_still_life.glb");
+
 const BooksCanvas = () => {
   const [isMobile, setIsMobile] = useState(false);
 
