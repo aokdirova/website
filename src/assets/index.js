@@ -42,6 +42,7 @@ import nightcity from "./art/nightcity.jpg";
 import tulips from "./art/tulips.jpg";
 import wal from "./art/wal.jpg";
 import water from "./art/water.jpg";
+import winter from "./art/winter.jpg";
 
 export {
   logo,
@@ -85,4 +86,5 @@ export {
   website,
   natours,
   mainIconsdark,
+  winter,
 };

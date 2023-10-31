@@ -36,6 +36,7 @@ import {
   robot,
   website,
   natours,
+  winter,
 } from "../assets";
 
 export const navLinks = [
@@ -241,26 +242,27 @@ const projects = [
 ];
 
 const artGallery = [
-  { image: aurora, alt: "aurora borealis" },
+  { image: winter, alt: "picture displaying winter and houses in snow" },
   { image: ballerina, alt: "ballerina" },
+  { image: water, alt: "water being poured into the glass" },
+  { image: dancer, alt: "dancing woman" },
+  { image: couple, alt: "couple kissing under rain" },
+  { image: muse, alt: "muse" },
+  { image: cutie, alt: "cute dog art" },
+  { image: aurora, alt: "aurora borealis" },
   { image: baum, alt: "tree in the dark" },
   { image: boats, alt: "boats in the night" },
   {
     image: brainleftandright,
     alt: "image describing two parts of brain with a flower colored in black on one side and colored on another",
   },
-  { image: couple, alt: "couple kissing under rain" },
-  { image: cutie, alt: "cute dog art" },
   { image: france, alt: "france" },
   { image: lettertolovedone, alt: "empty envelope" },
   { image: maki, alt: "flowers" },
   { image: mountDoom, alt: "mountain from Lord of the rings in my head" },
-  { image: muse, alt: "muse" },
   { image: nightcity, alt: "city in the night. it is snowing" },
   { image: tulips, alt: "tulips on canvas" },
   { image: wal, alt: "a whale. maybe a docker whale?" },
-  { image: water, alt: "water being poured into the glass" },
-  { image: dancer, alt: "dancing woman" },
 ];
 
 export { technologies, experiences, projects, artGallery };
