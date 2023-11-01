@@ -1,8 +1,7 @@
 import { motion } from "framer-motion";
 import { styles } from "../styles";
 import { mainIconsdark } from "../assets";
-import { slideIn } from "../utils/motion";
-// import { BooksCanvas } from "./canvas";
+import { StarsForHero } from "./canvas";
 const Hero = () => {
   return (
     <section className='relative w-full h-screen mx-auto'>
@@ -30,7 +29,7 @@ const Hero = () => {
           className='pt-20 h-full w-auto'
         />
       </div>
-
+      <StarsForHero />
       <div className='absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center'>
         <a href='#about'>
           <div className='w-[35px] h-[64px] rounded-2xl border-4 flex justify-center items-start p-2'>
