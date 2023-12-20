@@ -146,7 +146,7 @@ const experiences = [
       "solving katas",
       "learning new technologies through building apps",
       "extending my knowledge with the help of different platforms like Udemy",
-      "learning about clean code and architecture with the help of Uncle Bob",
+      "learning about clean code and architecture with the help of Blogs, Articles, Videos and Uncle Bob",
     ],
   },
 ];
